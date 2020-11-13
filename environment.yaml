@@ -1,0 +1,18 @@
+name: tut_hyp_opt
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - wheel
+  - tensorflow=1.14.0
+  # - jupyter  # use ipykernel instead to register this kernel to already installed jupyter lab (in diff. env)
+  - ipykernel
+  - keras
+  - matplotlib=3.1.1
+  - numpy
+  
+  - pip
+  - pip:
+    - talos==0.6.6
